@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100Vh;
+  width: 100%;
+ 
+}
+
+
+.Aside {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-top: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f4f4f4;
+  text-align: center;
+}
+.small-logo { 
+  font-size: 25px;
+  color: darkgoldenrod;
+}
+
+.Body {
+  background-color: black;
+  padding-top: 60px;
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-text {
+  font-size: 23px;
+  font-weight: 500;
+  color: darkgrey;
+}
+
+.input--class {
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid  rgb(71, 71, 71);
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 0px 10px;
+  outline: none;
+  color: #fff;
+}
+
+.search-btn {
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.movies {
+  color: darkgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-img {
+  /*width: 250px;*/
+  height: 300px;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+/*Aside*/
+.filter--header {
+  font-size: 35px;
+  color: darkgoldenrod;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.genres {
+  font-weight: 600;
+  color: darkgoldenrod;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.genres-list {
+   color: darkgoldenrod;
+   list-style-type: none;
+   line-height: 3rem;
+   font-weight: 400;
+}
+
+.genres-list li a:hover {
+  background-color: rgb(223, 222, 218);
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all ease-in-out 0.1s;
+}
+
