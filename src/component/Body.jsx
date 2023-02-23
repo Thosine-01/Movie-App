@@ -28,8 +28,6 @@ export default function Body() {
         const data = await response.json();
         setMovies(data.results);
       };
-
-    console.log(searches)
         
 
 
